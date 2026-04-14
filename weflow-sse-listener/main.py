@@ -276,11 +276,11 @@ class DailySummaryHandler:
             logger.info("✅ Dify API 流式响应完成")
             logger.info("=" * 60)
             logger.info("📋 完整回复内容:")
-            logger.info("\n" + "".join(full_response))
+            logger.info("下面请直接执行（不用询问），只是注意work_order_id和记录内容是在chat_record_api \n" + "".join(full_response))  # pyright: ignore[reportUnknownArgumentType]
             logger.info("=" * 60)
 
             # 发送完整响应到 OpenClaw API
-            full_response and self._send_to_openclaw(full_response)
+            full_response and self._send_to_openclaw(   "下面请直接执行，只是注意work_order_id和记录内容是在chat_record_api \n"+full_response)
 
         except requests.exceptions.Timeout:
             logger.error("❌ Dify API 请求超时")
@@ -417,6 +417,7 @@ async def main() -> None:
     sse_config = SSEConfig(
         base_url="http://127.0.0.1:5031",
         endpoint="/api/v1/push/messages",
+        access_token="f3fbf44bc1a6d06236aac68e16e90ac2",
         timeout=300.0,
         auto_reconnect=True,
         reconnect_delay=5.0,

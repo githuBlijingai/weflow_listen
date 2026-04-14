@@ -1,0 +1,28 @@
+{
+  "sessionId": "50316395674@chatroom",
+  "groupName": "测试-交流群",
+  "startTime": "2026-04-09",
+  "endTime": "2026-04-09T23:59:00.811494",
+  "startMessage": {
+    "localId": 77,
+    "serverId": 233921392988140450,
+    "localType": 1,
+    "createTime": 1775699689,
+    "sortSeq": 1775699689000,
+    "isSend": 0,
+    "senderUsername": "tangxihao002",
+    "content": "今天访问google很慢，搜索后没有内容出来，帮忙看看",
+    "rawContent": "tangxihao002:\n今天访问google很慢，搜索后没有内容出来，帮忙看看",
+    "parsedContent": "今天访问google很慢，搜索后没有内容出来，帮忙看看"
+  },
+  "endMessage": null,
+  "messageCount": 1,
+  "messages": [
+    {
+      "time": "2026-04-09T09:54:49",
+      "sender": "tangxihao002",
+      "content": "今天访问google很慢，搜索后没有内容出来，帮忙看看",
+      "messageKey": 233921392988140450
+    }
+  ]
+}

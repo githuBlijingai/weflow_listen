@@ -24,6 +24,7 @@ class SSEConfig:
     """SSE 配置"""
     base_url: str = "http://127.0.0.1:5031"
     endpoint: str = "/api/v1/push/messages"
+    access_token: str = ""
     timeout: float = 300.0
     auto_reconnect: bool = True
     reconnect_delay: float = 5.0
@@ -167,7 +168,8 @@ class SSEClient:
     
     async def _listen(self) -> None:
         """监听 SSE 事件流"""
-        async with self.client.stream("GET", self.config.endpoint) as response:
+        params = {"access_token": self.config.access_token} if self.config.access_token else None
+        async with self.client.stream("GET", self.config.endpoint, params=params) as response:
             response.raise_for_status()
             logger.info("✅ SSE 连接成功，开始监听新消息...")
             

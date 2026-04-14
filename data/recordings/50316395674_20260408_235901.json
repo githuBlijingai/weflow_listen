@@ -1,0 +1,46 @@
+{
+  "sessionId": "50316395674@chatroom",
+  "groupName": "测试-交流群",
+  "startTime": "2026-04-08",
+  "endTime": "2026-04-08T23:59:01.454980",
+  "startMessage": {
+    "localId": 73,
+    "serverId": 2700350914955532300,
+    "localType": 1,
+    "createTime": 1775618130,
+    "sortSeq": 1775618130000,
+    "isSend": 0,
+    "senderUsername": "tangxihao002",
+    "content": "今天网络有点慢",
+    "rawContent": "tangxihao002:\n今天网络有点慢",
+    "parsedContent": "今天网络有点慢"
+  },
+  "endMessage": null,
+  "messageCount": 4,
+  "messages": [
+    {
+      "time": "2026-04-08T11:41:20",
+      "sender": "wxid_frbstu4jraka21",
+      "content": "真的",
+      "messageKey": 3571817698439949000
+    },
+    {
+      "time": "2026-04-08T11:41:09",
+      "sender": "tangxihao002",
+      "content": "系米真的",
+      "messageKey": 1920311904569443600
+    },
+    {
+      "time": "2026-04-08T11:37:57",
+      "sender": "wxid_frbstu4jraka21",
+      "content": "@Theo 工单今晚或者明天早上可以落地",
+      "messageKey": 978715134396836600
+    },
+    {
+      "time": "2026-04-08T11:15:30",
+      "sender": "tangxihao002",
+      "content": "今天网络有点慢",
+      "messageKey": 2700350914955532300
+    }
+  ]
+}

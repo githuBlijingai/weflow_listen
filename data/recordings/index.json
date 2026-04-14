@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-04-02T11:06:39.837394",
-  "count": 15,
+  "updatedAt": "2026-04-09T23:59:00.821577",
+  "count": 17,
   "recordings": [
     {
       "id": "50316395674_20260325_105910.json",
@@ -121,6 +121,22 @@
       "startTime": "2026-04-02",
       "endTime": "2026-04-02T11:06:39.779739",
       "messageCount": 13
+    },
+    {
+      "id": "50316395674_20260408_235901.json",
+      "sessionId": "50316395674@chatroom",
+      "groupName": "测试-交流群",
+      "startTime": "2026-04-08",
+      "endTime": "2026-04-08T23:59:01.454980",
+      "messageCount": 4
+    },
+    {
+      "id": "50316395674_20260409_235900.json",
+      "sessionId": "50316395674@chatroom",
+      "groupName": "测试-交流群",
+      "startTime": "2026-04-09",
+      "endTime": "2026-04-09T23:59:00.811494",
+      "messageCount": 1
     }
   ]
 }
